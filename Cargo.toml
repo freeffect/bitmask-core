@@ -89,7 +89,7 @@ serde-encrypt = "0.7.0"
 strict_encoding = "2.6.1"
 strict_types = "1.6.3"
 thiserror = "1.0"
-tokio = { version = "1.33.0", features = ["macros", "sync"] }
+tokio = { version = "1.33.0", features = ["macros", "sync", "fs"] }
 zeroize = "1.6.0"
 walkdir = "2.4.0"
 
